@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name lab1.dclab.com;
+
+    root        /home/iaas-example/public;
+    charset     utf-8;
+
+    location / {
+    }
+}
